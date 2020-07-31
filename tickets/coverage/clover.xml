@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1595804338306" clover="3.2.0">
+  <project timestamp="1595804338307" name="All files">
+    <metrics statements="143" coveredstatements="141" conditionals="27" coveredconditionals="25" methods="18" coveredmethods="18" elements="188" coveredelements="184" complexity="0" loc="143" ncloc="143" packages="13" files="16" classes="16"/>
+    <package name="src">
+      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="app.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/app.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers.create-ticket">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/controllers/create-ticket/index.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="12" count="28" type="stmt"/>
+        <line num="15" count="28" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers.fetch-ticket">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/controllers/fetch-ticket/index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers.fetch-tickets">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/controllers/fetch-tickets/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers.update-ticket">
+      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/controllers/update-ticket/index.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="13" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.events.listeners">
+      <metrics statements="33" coveredstatements="31" conditionals="12" coveredconditionals="10" methods="4" coveredmethods="4"/>
+      <file name="OrderCancelledListener.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/events/listeners/OrderCancelledListener.ts">
+        <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+      <file name="OrderCreatedListener.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/events/listeners/OrderCreatedListener.ts">
+        <metrics statements="16" coveredstatements="15" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+      <file name="QueueGroupName.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/events/listeners/QueueGroupName.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.events.publishers">
+      <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="TicketCreatedPublisher.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/events/publishers/TicketCreatedPublisher.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="14" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+      <file name="TicketUpdatedPublisher.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/events/publishers/TicketUpdatedPublisher.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="4" count="8" type="cond" truecount="3" falsecount="0"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.helpers">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="createTicket.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/helpers/createTicket.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.models.tickets">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/models/tickets/index.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="51" count="23" type="stmt"/>
+        <line num="52" count="23" type="stmt"/>
+        <line num="57" count="8" type="stmt"/>
+        <line num="58" count="8" type="stmt"/>
+        <line num="60" count="8" type="stmt"/>
+        <line num="61" count="22" type="stmt"/>
+        <line num="64" count="8" type="stmt"/>
+        <line num="66" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.create-ticket">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/routes/create-ticket/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.fetch-ticket">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/routes/fetch-ticket/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.fetch-tickets">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/routes/fetch-tickets/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.update-ticket">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/ofoegbugoodnews/projects/node-projects/microservices/ticketing/tickets/src/routes/update-ticket/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
