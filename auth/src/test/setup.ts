@@ -13,6 +13,8 @@ declare global {
 
 let mongo: any;
 
+jest.setTimeout(30000);
+
 beforeAll( async () => {
   process.env.JWT_KEY = "hellohdhjsn";
 
